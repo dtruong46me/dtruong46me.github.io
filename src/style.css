@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppoins:wght@300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
-.header {
+.header, .home {
     display: flex;
     justify-content: center;
     background-color: #161e31;
@@ -25,9 +24,57 @@
 .navi a {
     text-decoration: none;
     color: #fff;
+    margin-left: 40px;
 }
 
 .navi a div {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
+    padding: 4px 0;
+}
+
+.navi a:hover {
+    color: #F8B179;
+}
+
+.dtruong_img img {
+    width: 515px;
+    opacity: 50%;
+    flex-shrink: 0;
+}
+
+.wrapper {
+    width: 1395px;
+}
+
+.dtruong_text .back_text {
+    font-size: 128px; 
+    font-weight: 800; 
+    text-transform: uppercase; 
+    letter-spacing: -2.56px; 
+    color: transparent; 
+    position: absolute; 
+    left: 53px;
+    -webkit-text-stroke: 2px #69709E;
+}
+
+.dtruong_text .front_text {
+    font-size: 64px; 
+    font-weight: 800; 
+    text-transform: uppercase; 
+    color: #f8b179; 
+    position: absolute; 
+    top: 94px;
+    -webkit-text-stroke: 2px #161e31;
+}
+
+.download_cv .dlcv_wrapper {
+    color: #69709E;
+    padding: 16px 24px; border: 2px solid #69709e; display: inline-block;
+}
+
+.download_cv .dlcv_wrapper:hover {
+    background-color: #F8B179;
+    color: #161e31;
+    border: 2px solid #F8B179;
 }
