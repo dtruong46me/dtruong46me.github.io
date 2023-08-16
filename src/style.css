@@ -6,7 +6,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-.header, .home, .about_me, .education {
+.header, .home, .about_me, .education, .project, .contact {
     display: flex;
     justify-content: center;
     background-color: #161e31;
@@ -112,7 +112,7 @@
 }
 
 .session_title .main_title {
-    font-size: 24px; font-weight: 600; text-transform: uppercase; color: #f8b179; background-color: #161e31;
+    font-size: 24px; font-weight: 600; text-transform: uppercase; color: #f8b179; background-color: #161e31; padding: 0 6px;
 }
 
 .course {
@@ -137,4 +137,85 @@
 
 .course .course_brief {
     font-size: 16px; font-weight: 400; color: #69709e; margin-top: 6px;
+}
+
+.my__proj {
+    width: 424px; height: 152px; border: 2px solid #69709e; display: flex; align-items: center;
+}
+
+.my__proj .proj__img {
+    width: 96px; height: 96px; border: 2px solid #f8b179; margin-right: 14px; margin-left: 26px; display: flex; align-items: center; justify-content: center; overflow: hidden;
+}
+
+.my__proj .proj__img img {
+    min-width: 100%; min-height: 100%; object-fit: cover;
+}
+
+.my__proj .proj__title {
+    font-size: 22px; font-weight: 600; color: #F8B179;
+}
+
+.my__proj .proj__des {
+    font-size: 14px; font-weight: 400; letter-spacing: -0.14px; color: #69709E; margin-top: 8px;
+}
+
+.proj__gnr {
+    text-decoration: none; display: inline-block;
+}
+
+.proj__gnr:hover {
+    box-shadow: 0px 0px 10px 0px #F8B179;
+}
+
+.projs {
+    width: 1360px; display: flex; justify-content: space-between; margin: auto;
+}
+
+.more_proj:hover div {
+    box-shadow: 0px 0px 10px 0px #F8B179;
+}
+
+.other_contact>div {
+    width: 142px; height: 1px; background-color: #f8b179;
+}
+
+.contact__adr {
+    text-decoration: none;
+}
+
+.contact__address:hover {
+    border: 2px solid #F8B179;
+}
+
+.contact__address:hover i {
+    color: #F8B179;
+}
+
+.contact__address {
+    width: 48px; height: 48px; border: 2px solid #69709E; display: flex; align-items: center; justify-content: center; border-radius: 25px;
+}
+
+.contact__address i {
+    font-size: 28px; color: #69709E;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px 0px #F8B179;
+}
+
+.input__contact p {
+    font-size: 17px; font-weight: 300; color: #f8b179; margin-left: 48px; margin-bottom: 2px;
+}
+
+.input__contact input {
+    height: 52px; border-radius: 34px; border: 2px solid #69709E; background-color: transparent; color: #f8b179; padding: 0 16px 0 32px; font-size: 18px;
+}
+
+.send_msg {
+    font-size: 20px; font-weight: 600; color: #161e31; background-color: #69709e; cursor: pointer; padding: 12px 24px; border-radius: 34px; border: 2px solid #69709E; line-height: 36px;
+}
+
+.send_msg:hover {
+    color: #69709E; border: 2px solid #F8B179; background-color: transparent; box-shadow: 0px 0px 10px 0px #F8B179;
 }
