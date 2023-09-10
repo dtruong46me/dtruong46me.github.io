@@ -44,7 +44,7 @@
 }
 
 .wrapper {
-    width: 1395px;
+    width: 82.64%;
 }
 
 .dtruong_text .back_text {
@@ -216,6 +216,12 @@
     font-size: 20px; font-weight: 600; color: #161e31; background-color: #69709e; cursor: pointer; padding: 12px 24px; border-radius: 34px; border: 2px solid #69709E; line-height: 36px;
 }
 
-.send_msg:hover {
+.send_msg:hover, .send_msg:focus {
     color: #69709E; border: 2px solid #F8B179; background-color: transparent; box-shadow: 0px 0px 10px 0px #F8B179;
+}
+
+@media only screen and (max-width: 1024px) {
+    .home {
+        display: none;
+    }
 }
