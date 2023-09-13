@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -19,7 +19,7 @@
 }
 
 html {
-    font-size: 62.5%; overflow: hidden;
+    font-size: 62.5%; overflow-x: hidden;
 }
 
 body {
@@ -67,7 +67,7 @@ section {
 }
 
 .home-content .text-animate h3 {
-    font-size: 3.2rem; font-weight: 700; color: transparent; -webkit-text-stroke: 0.7px var(--main-color);
+    font-size: 3.2rem; font-weight: 700; color: transparent; -webkit-text-stroke: 0.2px var(--main-color);
 }
 
 .home-content p {
@@ -79,7 +79,9 @@ section {
 }
 
 .btn-box .btn {
-    position: relative; display: inline-flex; justify-content: center; align-items: center; width: 15rem; height: 100%; background: var(--main-color); border: 0.2rem solid var(--main-color); border-radius: 0.8rem; font-weight: 600; letter-spacing: 0.1rem; color: var(--bg-color);
+    position: relative; display: inline-flex; justify-content: center; align-items: center; 
+    width: 15rem; height: 100%; background: var(--main-color); border: 0.2rem solid var(--main-color); 
+    border-radius: 0.8rem; font-weight: 600; letter-spacing: 0.1rem; color: var(--bg-color);
     z-index: 1; overflow: hidden; font-size: 1.8rem; transition: 0.5s;
 }
 
