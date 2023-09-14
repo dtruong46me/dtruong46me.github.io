@@ -54,3 +54,6 @@ tabs.forEach(tab => {
         tab.classList.add('opt-active');
     });
 });
+
+
+// # EMAIL SENDING

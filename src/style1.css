@@ -440,6 +440,26 @@ span {
     .about .contact__infor>div {
         display: flex; justify-content: space-around; padding: 0 25%;
     }
+
+    .certificates_.change-active .cert-row {
+        display: flex; flex-wrap: wrap; gap: 3rem; 
+        width: 90%;
+    }
+
+    .cert-row .cert-column {
+        flex: 1 1 calc(50% - 1.5rem);
+    }
+}
+
+@media (max-width: 670px) {
+    .certificates_.change-active .cert-row {
+        display: flex; flex-wrap: wrap; gap: 3rem; 
+        width: 98%;
+    }
+
+    .cert-row .cert-column {
+        flex: 1 1 calc(50% - 1.5rem);
+    }
 }
 
 @media (max-width: 520px) {
@@ -457,6 +477,24 @@ span {
 
     .home-sci a {
         height: 38px; width: 38px;
+    }
+
+    .certificates_.change-active .cert-row {
+        flex-direction: column; flex-wrap: wrap; gap: 0; 
+        width: 72%;
+    }
+
+    .certificates_.change-active .content {
+        position: relative; padding: 1.5rem; border: .2rem solid var(--main-color);
+        border-radius: .6rem; margin-bottom: 2.4rem; overflow: hidden;
+    }
+
+    .certificates_.change-active .content h3 {
+        font-size: 1.4rem;
+    }
+
+    .certificates_.change-active .content p {
+        font-size: 1.12rem;
     }
 }
 
@@ -552,6 +590,10 @@ span {
     .projects .projects-row {
         flex-direction: column; gap: 0;
     }
+
+    /* .projects .change-active .cert-row {
+        flex-direction: column; gap: 0;
+    } */
 }
 
 /* CHANGE PROJECTS */
@@ -671,4 +713,52 @@ span {
 .change-active[data-content] {
     display: flex; 
     justify-content: center; align-items: center; flex-direction: column; width: 100%;
+}
+
+
+/* CHANGE CERTIFICATES CSS */
+.certificates_ .cert-row {
+    display: flex; flex-wrap: wrap; gap: 4rem; width: 80%;
+}
+
+.cert-row .cert-column {
+    flex: 1 1 calc(50% - 2rem);
+}
+
+.cert-column .title {
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 2rem;
+}
+
+.cert-content .content {
+    position: relative; padding: 1.5rem; border: .2rem solid var(--main-color);
+    border-radius: .6rem; margin-bottom: 4rem; overflow: hidden;
+}
+
+.cert-content .content::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 0; height: 100%; background: var(--second-bg-color);
+    z-index: -1; transition: 0.5s;
+}
+
+.cert-content .content:hover::before {
+    width: 100%; transition: 0.5s;
+}
+
+
+.cert-content .content h3 {
+    font-size: 1.72rem;
+}
+
+.cert-content .content p {
+    font-size: 1.2rem; padding-top: .32rem;
+}
+
+.cert-content .content a {
+    color: var(--text-color);
+}
+
+.cert-content .content a:hover{
+    color: var(--main-color)
 }
