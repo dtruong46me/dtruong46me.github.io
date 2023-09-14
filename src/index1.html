@@ -63,7 +63,7 @@
 
     <!-- about section  -->
     <section class="about" id="about">
-        <h2 class="heading">About <span>Me</span></h2>
+        <h2 class="heading" style="margin-bottom: 2rem;">About <span>Me</span></h2>
 
         <div class="about-img">
             <img src="../assets/imgs/profile_bg_v3.jpg.png" alt="">
@@ -75,15 +75,74 @@
 
             <h6 style="margin-top: 0.4rem; margin-bottom: 2.4rem; font-size: 1.7rem; font-weight: 300;">━━━ Data Engineer ━━━</h6>
             
-            <p>Lorem ipsum data more index height consider ipsum data more index height consider 
-            ipsum data more index height consider ipsum data more index height consider ipsum data 
-            more index height consider ipsum data more index height consider ipsum data more index 
-            height consider ipsum data more index height consider ipsum data more index height consider 
-            ipsum data more. </p>
+            <div class="infor__container">
+                <div class="personal__infor">
+                    <h3 class="about__title">Personal Information</h3>
 
-            <div class="btn-box btns" style="justify-content: center; width: 100%;">
-                <a href="#about" class="btn">Read More</a>
+                    <div class="about__name about__field">
+                        <h4>Name</h4>
+                        <p>Phan Dinh Truong</p>
+                    </div>
+
+                    <div class="about__name about__field">
+                        <h4>D.O.B</h4>
+                        <p>2003</p>
+                    </div>
+
+                    <div class="about__name about__field">
+                        <h4>Address</h4>
+                        <p>Bac Ninh, Viet Nam</p>
+                    </div>
+
+                    <div class="about__name about__field">
+                        <h4>Live in</h4>
+                        <p>Hai Ba Trung, Ha Noi</p>
+                    </div>
+                </div>
+
+                <div class="contact__infor">
+                    <h3 class="about__title">Contact Information</h3>
+
+                    <div>
+                        <a href="">
+                            <div class="contact__content">
+                                <i class='bx bx-phone-call'></i>
+                                <p>(+84) 97 987 01 56</p>
+                            </div>
+                        </a>
+                        
+                        <a href="">
+                            <div class="contact__content">
+                                <i class='bx bx-envelope'></i>
+                                <p>dtruong46.me@gmail.com</p>
+                            </div>
+                        </a>
+                        
+                        <a href="">
+                            <div class="contact__content">
+                                <i class='bx bxl-facebook' ></i>
+                                <p>fb.com/dtruong46me/</p>
+                            </div>
+                        </a>
+                        
+                        <a href="">
+                            <div class="contact__content">
+                                <i class='bx bxl-instagram' ></i>
+                                <p>instargram.com/dtruong46.me/</p>
+                            </div>
+                        </a>
+                        
+                        <a href="">
+                            <div class="contact__content">
+                                <i class='bx bxl-linkedin'></i>
+                                <p>linkedin.com/in/dtruong46me/</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
             </div>
+
         </div>
     </section>
 
@@ -170,101 +229,120 @@
     <section class="projects" id="projects">
         <h2 class="heading"><span>My </span>Projects</h2>
 
-        <div class="projects-row">
-            <div class="projects-column">
-                <div class="projects-box">
-                    
-                    <div class="project-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>May, 2023</div>
-                            <a href="#">
-                                <h3>Facial Expression Recognition</h3>
-                            </a>
-                            
-                            <p>Machine Learning</p>
+        <!-- options change -->
+        <div class="change__opts">
+            <div class="options__container">
+                <a href="#" class="change_btn opt-active" data-target="#my_projects">
+                    <div>Projects</div>
+                </a>
+
+                <a href="#" class="change_btn" data-target="#my_certificates">
+                    <div>Certificates</div>
+                </a>
+            </div>
+        </div>
+
+        <!-- projects -->
+        <div class="projects_ change-active" data-content id="my_projects">
+            <div class="projects-row">
+                <div class="projects-column">
+                    <div class="projects-box">
+                        
+                        <div class="project-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i>May, 2023</div>
+                                <a href="#">
+                                    <h3>Facial Expression Recognition</h3>
+                                </a>
+                                
+                                <p>Machine Learning</p>
+                            </div>
+                        </div>
+    
+                        <div class="project-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i>June, 2023</div>
+                                <a href="">
+                                    <h3>Credit Card Fraud Detection</h3>
+                                </a>
+                                <p>Applied Statistics & Experimental Design</p>
+                            </div>
+                        </div>
+    
+                        <div class="project-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i>May, 2023</div>
+                                <a href="">
+                                    <h3>HUSTPC Website</h3>
+                                </a>
+                                <p>Introduction to Software Engineering</p>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="project-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>June, 2023</div>
-                            <a href="">
-                                <h3>Credit Card Fraud Detection</h3>
-                            </a>
-                            <p>Applied Statistics & Experimental Design</p>
+                </div>
+    
+                <div class="projects-column">
+                    <div class="projects-box">
+                        <div class="project-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i>December, 2022</div>
+                                <a href="">
+                                    <h3>Covid Safe Project</h3>
+                                </a>
+                                <p>Introduction to Artificial Intelligence</p>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="project-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>May, 2023</div>
-                            <a href="">
-                                <h3>HUSTPC Website</h3>
-                            </a>
-                            <p>Introduction to Software Engineering</p>
+    
+                        <div class="project-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i>June, 2023</div>
+                                <a href="">
+                                    <h3>Sorting Algorithms Visualization</h3>
+                                </a>
+                                <p>Object Oriented Programming</p>
+                            </div>
+                        </div>
+    
+                        <div class="project-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i>January, 2023</div>
+                                <a href="">
+                                    <h3>Binpacking Bounded</h3>
+                                </a>
+                                <p>Fundamental Optimization</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="projects-column">
-                <div class="projects-box">
-                    <div class="project-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>December, 2022</div>
-                            <a href="">
-                                <h3>Covid Safe Project</h3>
-                            </a>
-                            <p>Introduction to Artificial Intelligence</p>
-                        </div>
+    
+            <div class="navi-project">
+                <a href="">
+                    <div class="nav-proj__btn">
+                        <i class='bx bxs-chevron-left'></i>
                     </div>
-
-                    <div class="project-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>June, 2023</div>
-                            <a href="">
-                                <h3>Sorting Algorithms Visualization</h3>
-                            </a>
-                            <p>Object Oriented Programming</p>
-                        </div>
+                </a>
+    
+                <a href="">
+                    <div class="proj_page">1</div>
+                </a>
+    
+                <a href="">
+                    <div class="proj_page">2</div>
+                </a>
+    
+                <a href="">
+                    <div class="nav-proj__btn">
+                        <i class='bx bxs-chevron-right'></i>
                     </div>
-
-                    <div class="project-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>January, 2023</div>
-                            <a href="">
-                                <h3>Binpacking Bounded</h3>
-                            </a>
-                            <p>Fundamental Optimization</p>
-                        </div>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
 
-        <div class="navi-project">
-            <a href="">
-                <div class="nav-proj__btn">
-                    <i class='bx bxs-chevron-left'></i>
-                </div>
-            </a>
-
-            <a href="">
-                <div class="proj_page">1</div>
-            </a>
-
-            <a href="">
-                <div class="proj_page">2</div>
-            </a>
-
-            <a href="">
-                <div class="nav-proj__btn">
-                    <i class='bx bxs-chevron-right'></i>
-                </div>
-            </a>
+        <!-- certificates -->
+        <div class="certificates_" data-content id="my_certificates">
+            <div>Deep Learning.AI Tensorflow</div>
         </div>
-
-        
     </section>
 
     <!-- contact section -->
@@ -299,7 +377,7 @@
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
                 <span class="focus"></span>
             </div>
-            <div class="btn-box btns">
+            <div class="btn-box btns" style="width: 100%; display: flex; justify-content: center;">
                 <button type="submit" class="btn" style="cursor: pointer;">Send
                     <i class='bx bxs-paper-plane' style="font-size: 2.2rem; margin-left: .8rem;"></i>
                 </button>

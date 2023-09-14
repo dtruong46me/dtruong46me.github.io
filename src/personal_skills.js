@@ -1,5 +1,8 @@
+
+
+
 const tabs = document.querySelectorAll('[data-target]'),
-  tabContents = document.querySelectorAll('[data-content]');
+tabContents = document.querySelectorAll('[data-content]');
 tabs.forEach(tab => {
   tab.addEventListener('click', () => {
     const target = document.querySelector(tab.dataset.target);
@@ -17,6 +20,8 @@ tabs.forEach(tab => {
   });
 
 });
+
+
 const themeButton = document.getElementById('theme-button');
 const darkTheme = 'dark-theme';
 const iconTheme = 'ri-sun-line';

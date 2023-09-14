@@ -422,6 +422,24 @@ span {
     .contact form .btn-box .btn {
         width: 100%;
     }
+
+    .about .infor__container {
+        flex-direction: column;
+        gap: 2.8rem;
+    }
+
+    .about .contact__infor p {
+        display: none;
+    }
+
+    .about .personal__infor h3,
+    .about .contact__infor h3 {
+        display: none;
+    }
+
+    .about .contact__infor>div {
+        display: flex; justify-content: space-around; padding: 0 25%;
+    }
 }
 
 @media (max-width: 520px) {
@@ -466,8 +484,9 @@ span {
 
 /* PROJECTS CSS */
 .projects {
-    display: flex; justify-content: center; align-items: center; flex-direction: column; padding-bottom: 5rem;
+    display: flex; align-items: center; flex-direction: column; padding-bottom: 5rem;
     /* min-height: auto; */
+    /* justify-content: center; */
 }
 
 .projects .projects-row {
@@ -535,6 +554,7 @@ span {
     }
 }
 
+/* CHANGE PROJECTS */
 .navi-project {
     display: flex; width:20rem; justify-content: space-between; margin-top: 3.2rem;
 }
@@ -565,4 +585,102 @@ span {
 
 .navi-project .nav-proj__btn:hover i {
     color: var(--main-color);
+}
+
+/* EDIT ABOUT */
+
+.about .infor__container {
+    display: flex; justify-content: space-between; margin-top: 4rem;
+}
+
+.about .infor__container .personal__infor,
+.about .infor__container .contact__infor {
+    width: 40rem; 
+    /* border: 1px solid var(--main-color); */
+}
+
+.about .about__title {
+    padding-bottom: 1.4rem; font-size: 2rem; color: var(--text-color);
+}
+
+.about .infor__container .about__field {
+    display: flex; align-items: center;
+}
+
+.about .infor__container .about__field h4 {
+    width:20%; text-align: left; font-size: 1.4rem; margin-left: 21%;
+}
+
+.about .infor__container .about__field p {
+    width: 50%; font-size: 1.6rem; margin: .9rem 0; text-align: left; font-weight: 200;
+}
+
+.about .contact__content {
+    display: flex; justify-content: center; align-items: center;
+}
+
+.about .contact__content i {
+    font-size: 2rem; margin-left: 15%;
+    /* border: 1px solid var(--text-color); padding: .6rem; border-radius: 50%; */
+}
+
+.about .contact__content p {
+    font-size: 1.2rem; margin: 1rem 0; width: 60%; text-align: left; margin-left: 1rem; font-weight: 200;
+}
+
+.about .contact__infor a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.about .contact__infor a:hover {
+    color: var(--main-color);
+}
+
+
+/* CHANGE PROJECTS */
+
+.change__opts {
+    padding: 0 0 4rem 0; min-height: auto;
+}
+
+.change__opts .options__container {
+    width: 36rem; background-color: var(--bg-color); height: 6.4rem; padding: 0.6rem 0; border-radius: .8rem; display: flex; justify-content: center;
+}
+
+.options__container .change_btn {
+    width: 17.5rem; text-decoration: none; color: var(--text-color);
+}
+
+/* .options__container .change_btn:first-child{
+    background-color: #0e2434; border-radius: .8rem;
+}
+
+.options__container .change_btn:first-child div {
+    font-weight: 500; font-size: 1.56rem;
+} */
+
+.options__container .opt-active {
+    background-color: #0e2434; border-radius: .8rem;
+}
+
+.options__container .opt-active div {
+    font-weight: 500; font-size: 1.56rem;
+}
+
+.options__container .change_btn div {
+    text-align: center; line-height: 5.2rem; font-size: 1.5rem;
+}
+
+/* .projects_, .certificates {
+    display: flex; justify-content: center; align-items: center; flex-direction: column; width: 100%;
+} */
+
+.projects [data-content] {
+    display: none;
+}
+
+.change-active[data-content] {
+    display: flex; 
+    justify-content: center; align-items: center; flex-direction: column; width: 100%;
 }

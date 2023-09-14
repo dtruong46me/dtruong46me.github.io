@@ -36,18 +36,22 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
-// const tabs = document.querySelectorAll('[data-target]'),
-// tabContents = document.querySelectorAll('[data-content]');
-// tabs.forEach(tab => {
-//     tab.addEventListener('click', () => {
-//         const target = document.querySelector(tab.dataset.target);
-//         tabContents.forEach(tc => {
-//             tc.classList.remove('filters__active');
-//         });
-//         target.classList.add('filters__active');
-//         tabs.forEach(t => {
-//             t.classList.remove('filter-tab-active');
-//         });
-//         tab.classList.add('filter-tab-active');
-//   });
-// });
+// CHANGE IN PROJECTS SECTION
+const tabs = document.querySelectorAll('[data-target]'),
+tabContents = document.querySelectorAll('[data-content]');
+
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        const target = document.querySelector(tab.dataset.target);
+
+        tabContents.remove('change-active');
+    });
+    
+    target.classList.add('change-active');
+    
+    tabs.forEach(t => {
+        t.classList.remove('opt-active');
+    });
+
+    tabs.classList.add('opt-active')
+});
