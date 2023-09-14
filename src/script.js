@@ -37,21 +37,20 @@ window.onscroll = () => {
 }
 
 // CHANGE IN PROJECTS SECTION
-const tabs = document.querySelectorAll('[data-target]'),
+const tabs = document.querySelectorAll('[data-target]');
 tabContents = document.querySelectorAll('[data-content]');
 
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {
         const target = document.querySelector(tab.dataset.target);
+        tabContents.forEach(tc => {
+            tc.classList.remove('change-active');
+        });
 
-        tabContents.remove('change-active');
+        target.classList.add('change-active');
+        tabs.forEach(t => {
+            t.classList.remove('opt-active');
+        });
+        tab.classList.add('opt-active');
     });
-    
-    target.classList.add('change-active');
-    
-    tabs.forEach(t => {
-        t.classList.remove('opt-active');
-    });
-
-    tabs.classList.add('opt-active')
 });

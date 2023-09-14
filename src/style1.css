@@ -645,36 +645,24 @@ span {
 }
 
 .change__opts .options__container {
-    width: 36rem; background-color: var(--bg-color); height: 6.4rem; padding: 0.6rem 0; border-radius: .8rem; display: flex; justify-content: center;
+    width: 37.2rem; background-color: var(--bg-color); height: 6.4rem; padding: 0.6rem 0; border-radius: .8rem; display: flex; justify-content: center; gap: .8rem;
 }
 
 .options__container .change_btn {
-    width: 17.5rem; text-decoration: none; color: var(--text-color);
+    width: 17.5rem; text-decoration: none; color: var(--text-color); cursor: pointer;
+    text-align: center; line-height: 5.2rem; font-size: 1.5rem;
+    background-color: var(--bg-color); border-radius: .8rem;
 }
 
-/* .options__container .change_btn:first-child{
-    background-color: #0e2434; border-radius: .8rem;
+.options__container .change_btn:hover {
+    background-color: #0e2434; 
+    /* font-size: 1.56rem; font-weight: 500; */
 }
-
-.options__container .change_btn:first-child div {
-    font-weight: 500; font-size: 1.56rem;
-} */
 
 .options__container .opt-active {
-    background-color: #0e2434; border-radius: .8rem;
-}
-
-.options__container .opt-active div {
+    background-color: #0e2434; 
     font-weight: 500; font-size: 1.56rem;
 }
-
-.options__container .change_btn div {
-    text-align: center; line-height: 5.2rem; font-size: 1.5rem;
-}
-
-/* .projects_, .certificates {
-    display: flex; justify-content: center; align-items: center; flex-direction: column; width: 100%;
-} */
 
 .projects [data-content] {
     display: none;
