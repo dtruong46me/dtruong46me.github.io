@@ -56,4 +56,15 @@ tabs.forEach(tab => {
 });
 
 
-// # EMAIL SENDING
+// # COPY TO CLIPBOARD
+function copyToClipboard(element) {
+    const textToCopy = element.querySelector('p').textContent;
+    const input = document.createElement('textarea');
+    input.value = textToCopy;
+    document.body.appendChild(input);
+    input.select();
+    document.execCommand('copy');
+    document.body.removeChild(input);
+    alert('Copied ' + textToCopy);
+    return false; 
+}
