@@ -14,11 +14,11 @@
 :root {
     --bg-color: #081b29;
     --second-bg-color: #112e42;
-    --text-color: #ededed;
-    /* --text-color: #f1f5e2; */
-    --main-color: #00abf0;
+    /* --text-color: #ededed; */
+    --text-color: #f1f5e2;
+    /* --main-color: #00abf0; */
     --container-color: hsl(var(--hue), 24%, 12%);
-    /* --main-color: #c7e838; */
+    --main-color: #70e838;
 }
 
 html {
@@ -345,6 +345,10 @@ span {
     .footer {
         padding: 2rem 4%;
     }
+
+    .home {
+        display: flex; align-items: center; padding: 0 9%; background: url('assets/imgs/profile__bg_v2.png') no-repeat; background-size: cover; background-position: center;
+    }
 }
 
 @media (max-width: 1056px) {
@@ -432,6 +436,14 @@ span {
         display: none;
     }
 
+    .about .contact__infor .contact__content i {
+        font-size: 2.6rem;
+    }
+
+    .about .contact__infor {
+        margin-top: 1.6rem;
+    }
+
     .about .personal__infor h3,
     .about .contact__infor h3 {
         display: none;
@@ -460,6 +472,13 @@ span {
     .cert-row .cert-column {
         flex: 1 1 calc(50% - 1.5rem);
     }
+
+    .footer .infor_footer {
+        flex-direction: column;
+        gap: 0.6rem !important;
+    }
+
+    
 }
 
 @media (max-width: 520px) {
@@ -502,9 +521,17 @@ span {
     .home-content h1 {
         font-size: 5.2rem;
     }
+
+    .education .education-content .content h3 {
+        font-size: 1.6rem;
+    }
+
+    .education .education-content .content p {
+        font-size: 1.3rem;
+    }
 }
 
-@media (max-width: 371px) {
+@media (max-width: 376px) {
     .home {
         justify-content: center;
     }
@@ -515,6 +542,26 @@ span {
 
     .home-content h1 {
         font-size: 5rem;
+    }
+
+    .education .education-content .content h3 {
+        font-size: 1.5rem;
+    }
+
+    .education .education-content .content p {
+        font-size: 1.2rem;
+    }
+
+    .projects_.change-active .project-content h3 {
+        font-size: 1.8rem;
+    }
+
+    .projects_.change-active .project-content p {
+        font-size: 1.5rem;
+    }
+
+    .projects {
+        padding: 10rem 2% 2rem;
     }
 }
 
@@ -589,6 +636,10 @@ span {
 @media (max-width: 860px) {
     .projects .projects-row {
         flex-direction: column; gap: 0;
+    }
+
+    .home {
+        display: flex; align-items: center; padding: 0 9%; background: url('assets/imgs/profile__bg_v2.png') no-repeat; background-size: cover; background-position: center;
     }
 
     /* .projects .change-active .cert-row {
@@ -761,4 +812,24 @@ span {
 
 .cert-content .content a:hover{
     color: var(--main-color)
+}
+
+.footer .infor_footer {
+    display: flex; gap: 2.4rem; margin-top: 1.2rem;
+}
+
+.footer .infor_footer span {
+    font-size: 1.12rem;
+}
+
+.footer .infor_footer div {
+    display: flex; align-items: center;
+}
+
+.footer .infor_footer span {
+    display: block; width: 2.4rem; text-align: center;
+}
+
+.footer .infor_footer p {
+    display: inline;
 }
