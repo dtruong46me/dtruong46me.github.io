@@ -381,7 +381,7 @@ span {
     .navbar {
         position: absolute; top: 100%; left: -100%; width: 100%; padding: 1rem 6.4%;
         background: var(--main-color); opacity: 0.96;
-        box-shadow: 0 0.32rem 4rem rgba(200, 200, 200, 0.2); 
+        /* box-shadow: 0 0.32rem 4rem rgba(200, 200, 200, 0.2);  */
         transition: .1s ease;
         transition-delay: 0.1s;
         z-index: 1;
