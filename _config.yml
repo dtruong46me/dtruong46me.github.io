@@ -164,8 +164,8 @@ header_pages:
 # Page default value
 defaults:
   home:
-    heading: "Learn Anything. Anytime. Anywhere."
-    subheading: "Ignite Curiosity. Learn Anything!"
+    heading: "Hi, I'm Dinh Truong"
+    subheading: "I'm a AI Engineer"
     banner: "/assets/images/banners/photo_by_amanda-sandlin-unsplash.jpg"
 
 # Banner default settings
