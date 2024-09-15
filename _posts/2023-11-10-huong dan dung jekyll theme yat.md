@@ -2,7 +2,7 @@
 layout: post
 title: Hướng dẫn cấu hình Jekyll theme YAT cho Blog
 subtitle: Cách thiết lập Jekyll blog như trang hiện tại
-author: Thinh Vu
+author: Dinh Truong
 top: 2
 categories: jamstack
 tags: [guide, jekyll]
