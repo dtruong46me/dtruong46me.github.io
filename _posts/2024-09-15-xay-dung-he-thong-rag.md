@@ -1,7 +1,7 @@
 ---
 layout: post
-title: INF Chatbot - Ứng dụng RAG xây dựng Chatbot cho FPT Telecom
-subtitle: Xây dựng hệ thống Chatbot hỏi đáp cho công ty sử dụng RAG, Langchain và Gemini
+title: INF Chatbot - Ứng dụng RAG xây dựng Chatbot
+subtitle: Xây dựng INF Chatbot dựa vào RAG, Langchain và Gemini
 author: Dinh Truong
 categories: jamstack
 tags:
