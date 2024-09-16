@@ -4,5 +4,8 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "showUnsupportedFiles": false,
-  "attachmentFolderPath": "assets/images"
+  "attachmentFolderPath": "assets/images",
+  "foldIndent": false,
+  "foldHeading": true,
+  "showIndentGuide": false
 }

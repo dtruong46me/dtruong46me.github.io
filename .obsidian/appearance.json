@@ -1,8 +1,8 @@
 {
-  "accentColor": "#008c9e",
+  "accentColor": "#2f4b36",
   "baseFontSize": 19,
   "cssTheme": "Minimal",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "showViewHeader": true,
   "enabledCssSnippets": [
     "obsidian_theme_config"

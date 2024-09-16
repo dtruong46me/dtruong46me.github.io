@@ -2,7 +2,6 @@
   "file-explorer",
   "global-search",
   "switcher",
-  "graph",
   "backlink",
   "canvas",
   "outgoing-link",
@@ -12,9 +11,13 @@
   "templates",
   "note-composer",
   "command-palette",
+  "slash-command",
   "editor-status",
   "bookmarks",
   "outline",
   "word-count",
-  "file-recovery"
+  "workspaces",
+  "file-recovery",
+  "publish",
+  "sync"
 ]
