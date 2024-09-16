@@ -166,7 +166,7 @@ defaults:
   home:
     heading: "Hi, I'm Dinh Truong"
     subheading: "I'm a AI Engineer"
-    banner: "/assets/images/banners/DT-background.png"
+    banner: "/assets/images/banners/photo_by_amanda-sandlin-unsplash.jpg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
