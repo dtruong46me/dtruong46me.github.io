@@ -166,7 +166,7 @@ defaults:
   home:
     heading: "Hi, I'm Dinh Truong"
     subheading: "I'm a AI Engineer"
-    banner: /assets/banners/DT-background.png
+    banner: "/assets/images/banners/DT-background.png"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -186,7 +186,7 @@ defaults:
 
 # Excerpt settings
 excerpt:
-  default_image: /assets/banners/default-image.jpeg  # Default image when the image style is not none
+  default_image: /assets/images/banners/default-image.jpeg  # Default image when the image style is not none
   image_style: z          # Image layout style (It's value could be none, left, right, top, z, z-reverse)
   image_width: 45%      # Image default width, default is 38.2%
   image_height: 250px     # Image default height, default is 160px
