@@ -165,7 +165,7 @@ header_pages:
 defaults:
   home:
     heading: "Hi, I'm Dinh Truong"
-    subheading: "I'm a AI Engineer"
+    subheading: "I'm an AI Engineer"
     banner: "/assets/images/banners/photo_by_amanda-sandlin-unsplash.jpg"
 
 # Banner default settings
