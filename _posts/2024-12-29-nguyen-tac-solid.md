@@ -9,7 +9,7 @@ tags:
   - code
   - tips
 banner:
-  image: ![](../assets/images/2024_12/SOLID-Principles.jpg)
+  image: ../assets/images/2024_12/SOLID-Principles.jpg
 ---
 
 # Nguyên tắc SOLID trong code - Bạn đã biết chưa? 🤔
